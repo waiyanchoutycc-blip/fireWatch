@@ -1,0 +1,2 @@
+# Optional workflow; install separately from the tested application runtime.
+earthengine-api==1.7.4

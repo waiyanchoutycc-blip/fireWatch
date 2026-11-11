@@ -1,0 +1,42 @@
+{
+  "source": "NASA POWER / MERRA-2",
+  "url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M,PRECTOTCORR&community=AG&longitude=95.9&latitude=18.5&start=2015&end=2025&format=JSON",
+  "file": "power_monthly_2015_2025_95.9_18.5.json",
+  "sha256": "d444517e7d1939ee1ef523d281b8e11b6bac38860dd209adc2dce4f33252e536",
+  "acquired_at": "2026-11-10T15:34:28.454782+00:00",
+  "status": "downloaded",
+  "coordinate": [
+    95.9,
+    18.5
+  ],
+  "spatial_resolution_degrees": [
+    0.625,
+    0.5
+  ],
+  "parameters": {
+    "PRECTOTCORR": {
+      "units": "mm/day",
+      "longname": "Precipitation Corrected"
+    },
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    }
+  },
+  "months": 132,
+  "api_header": {
+    "title": "NASA/POWER Source Native Resolution Monthly and Annual",
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Monthly and Annual API"
+    },
+    "sources": [
+      "MERRA2"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "LST",
+    "start": "20150101",
+    "end": "20251231"
+  },
+  "note": "One coarse-grid regional context series. YYYY13 values are annual and must be excluded from monthly features. Not local 5 km climate."
+}
